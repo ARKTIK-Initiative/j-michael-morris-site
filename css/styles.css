@@ -1,0 +1,98 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Hero Section */
+.hero {
+    background: url('../assets/images/hero-background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.hero-content h2 {
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+}
+
+/* Section Styles */
+section {
+    padding: 4em 2em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Services List */
+.services ul {
+    list-style: none;
+    margin-top: 1em;
+}
+
+.services li {
+    font-size: 1.1em;
+    margin-bottom: 0.5em;
+}
+
+/* Resources Links */
+.resources ul {
+    list-style: none;
+    margin-top: 1em;
+}
+
+.resources a {
+    color: #0056b3;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.resources a:hover {
+    color: #00408d;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 2em;
+    color: #aaa;
+    background-color: #111;
+}
+
+.footer p {
+    margin-top: 1em;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
